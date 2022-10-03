@@ -1,4 +1,4 @@
-name: Jack CI
+name: SQLPod CI
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
       - run: |
             xcodebuild clean test \
               -configuration Release \
-              -scheme "Jack" \
+              -scheme "SQLPod" \
               -sdk "iphonesimulator" \
               -destination "platform=iOS Simulator,name=iPhone 14" \
               ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
@@ -43,7 +43,7 @@ jobs:
       - run: |
             xcodebuild clean test \
               -configuration Release \
-              -scheme "Jack" \
+              -scheme "SQLPod" \
               -sdk "appletvsimulator" \
               -destination "platform=tvOS Simulator,name=Apple TV" \
               ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
@@ -133,10 +133,10 @@ jobs:
           sed -I "" 's;^    dependencies: \[;    dependencies: [ .package(name: "swift-docc-plugin", url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"), ;1' Package.swift
 
           swift package --allow-writing-to-directory docs \
-            generate-documentation --target Jack \
+            generate-documentation --target SQLPod \
             --disable-indexing \
             --transform-for-static-hosting \
-            --hosting-base-path Jack \
+            --hosting-base-path SQLPod \
             --output-path docs
 
       - name: Deploy

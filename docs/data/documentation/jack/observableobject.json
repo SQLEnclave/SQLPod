@@ -1,0 +1,177 @@
+{
+  "abstract" : [
+    {
+      "text" : "A type alias for the Combine framework’s type for an object with a publisher that emits before the object has changed.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Jack\/documentation\/Jack"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:4Jack16ObservableObjecta",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ObservableObject"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Jack"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ObservableObject"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "ObservableObject"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ObservableObject"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7Combine16ObservableObjectP",
+              "text" : "ObservableObject"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jack\/observableobject"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Jack/documentation/Jack": {
+  "abstract" : [
+    {
+      "text" : "Jack is a cross-platform framework that enables you to export",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "properties of your Swift classes to an embedded JavaScript environment,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "enabling your app to provide scriptable extensions.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack"
+},
+"doc://Jack/documentation/Jack/ObservableObject": {
+  "abstract" : [
+    {
+      "text" : "A type alias for the Combine framework’s type for an object with a publisher that emits before the object has changed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ObservableObject"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ObservableObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ObservableObject",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/observableobject"
+}
+}
+}

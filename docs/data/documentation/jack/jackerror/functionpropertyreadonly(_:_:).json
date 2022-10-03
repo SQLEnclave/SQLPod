@@ -1,0 +1,325 @@
+{
+  "abstract" : [
+    {
+      "text" : "Functions can only be initialized from the Swift side and cannot be changed.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Jack\/documentation\/Jack",
+        "doc:\/\/Jack\/documentation\/Jack\/JackError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Jack\/documentation\/Jack\/JackError\/functionPropertyReadOnly(_:_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:4Jack0A5ErrorO24functionPropertyReadOnlyyAC5JXKit7JXValueC_AC7ContextVtcACmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "functionPropertyReadOnly"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:5JXKit7JXValueC",
+        "text" : "JXValue"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:4Jack0A5ErrorO",
+        "text" : "JackError"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:4Jack0A5ErrorO7ContextV",
+        "text" : "Context"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Jack"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "JackError.functionPropertyReadOnly(_:_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "functionPropertyReadOnly"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5JXKit7JXValueC",
+              "text" : "JXValue"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackError",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:4Jack0A5ErrorO",
+              "text" : "JackError"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackError\/Context",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:4Jack0A5ErrorO7ContextV",
+              "text" : "Context"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jack\/jackerror\/functionpropertyreadonly(_:_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Jack/documentation/Jack": {
+  "abstract" : [
+    {
+      "text" : "Jack is a cross-platform framework that enables you to export",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "properties of your Swift classes to an embedded JavaScript environment,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "enabling your app to provide scriptable extensions.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack"
+},
+"doc://Jack/documentation/Jack/JackError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackError"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackError",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackerror"
+},
+"doc://Jack/documentation/Jack/JackError/Context": {
+  "abstract" : [
+    {
+      "text" : "The context in which the error occurred.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Context"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackError\/Context",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Context"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackError.Context",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackerror\/context"
+},
+"doc://Jack/documentation/Jack/JackError/functionPropertyReadOnly(_:_:)": {
+  "abstract" : [
+    {
+      "text" : "Functions can only be initialized from the Swift side and cannot be changed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "functionPropertyReadOnly"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:4Jack0A5ErrorO",
+      "text" : "JackError"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:4Jack0A5ErrorO7ContextV",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackError\/functionPropertyReadOnly(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JackError.functionPropertyReadOnly(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackerror\/functionpropertyreadonly(_:_:)"
+}
+}
+}

@@ -1,0 +1,267 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "DynamicProperty.update()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Jack\/documentation\/Jack",
+        "doc:\/\/Jack\/documentation\/Jack\/Track",
+        "doc:\/\/Jack\/documentation\/Jack\/Track\/DynamicProperty-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Jack\/documentation\/Jack\/Track\/update()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUI",
+    "externalID" : "s:7SwiftUI15DynamicPropertyPAAE6updateyyF::SYNTHESIZED::s:4Jack5TrackV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "update"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Jack"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "update()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "mutating"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "update"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jack\/track\/update()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Jack/documentation/Jack": {
+  "abstract" : [
+    {
+      "text" : "Jack is a cross-platform framework that enables you to export",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "properties of your Swift classes to an embedded JavaScript environment,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "enabling your app to provide scriptable extensions.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack"
+},
+"doc://Jack/documentation/Jack/Track": {
+  "abstract" : [
+    {
+      "text" : "A value that is ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Published",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " but not available.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Track"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Track",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Track"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Track",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/track"
+},
+"doc://Jack/documentation/Jack/Track/DynamicProperty-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Track\/DynamicProperty-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "DynamicProperty Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/track\/dynamicproperty-implementations"
+},
+"doc://Jack/documentation/Jack/Track/update()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "update"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Track\/update()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "update()",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/track\/update()"
+}
+}
+}

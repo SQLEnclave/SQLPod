@@ -1,0 +1,1473 @@
+{
+  "abstract" : [
+    {
+      "text" : "Jack is a cross-platform framework that enables you to export",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "properties of your Swift classes to an embedded JavaScript environment,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "enabling your app to provide scriptable extensions.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Jack\/documentation\/Jack"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Jack",
+    "modules" : [
+      {
+        "name" : "Jack"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "Jack"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "code" : [
+            "import Jack",
+            "",
+            "class AppleJack : JackedObject { ",
+            "    @Stack var name: String \/\/ exports the property to JS and acts as Combine.Published ",
+            "    @Stack var age: Int",
+            "",
+            "    init(name: String, age: Int) {",
+            "        self.name = name",
+            "        self.age = age",
+            "    }",
+            "",
+            "    \/\/\/ Functions are exported as method properties, and can be re-named for export",
+            "    @Jack(\"haveBirthday\") var _haveBirthday = haveBirthday",
+            "    func haveBirthday() -> Int {",
+            "        age += 1",
+            "        return age",
+            "    }",
+            "",
+            "    static func demo() throws {",
+            "        let jackApp = AppleJack(name: \"Jack Appleseed\", age: 24)",
+            "",
+            "        let jxc = try jackApp.jack().ctx",
+            "",
+            "        let namejs = try jxc.eval(\"name\").stringValue",
+            "        assert(namejs == jackApp.name)",
+            "",
+            "        let agejs = try jxc.eval(\"age\").numberValue",
+            "        assert(agejs == Double(jackApp.age)) \/\/ JS numbers are doubles",
+            "",
+            "        assert(jackApp.haveBirthday() == 25) \/\/ direct Swift call",
+            "        let newAge = try jxc.eval(\"haveBirthday()\").numberValue \/\/ script invocation",
+            "",
+            "        assert(newAge == 26.0)",
+            "        assert(jackApp.age == 26)",
+            "    }",
+            "}",
+            ""
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Jack uses ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/www.jective.org\/JXKit\/documentation\/jxkit\/",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "to provide a simple way to export your Swift properties",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "and functions to an embedded JavaScript context.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The framework is cross-platform (iOS\/macOS\/tvOS\/Linux) and",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "can be used to export Swift instances to a scripting envrionment.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Property-Wrappers",
+          "level" : 2,
+          "text" : "Property Wrappers",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Jack provides the following property wrappers that can be",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "used within a ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "@Track",
+          "level" : 3,
+          "text" : "@Track",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Track",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " property is the equivalent to the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Published",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "property for the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " conformance of a ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "Note that it is not possible to use ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Published",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " in ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ",",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "so ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Track",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " provides equivalent functionality and works transparently",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "as an ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", such as in a SwiftUI ",
+              "type" : "text"
+            },
+            {
+              "code" : "EnvironmentObject",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "@Stack",
+          "level" : 3,
+          "text" : "@Stack",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " propery is published (like the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Track",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " wrapper), and it is",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "additionally exposed to the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/www.jective.org\/JXKit\/documentation\/jxkit\/jxcontext",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " as a property. Properties",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "can be get and set from within JavaScript as if they were regular",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "properties of objects.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The conforming types are numbers, strings, and booleans.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "For general support for other codable value types,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "use ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Pack",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "@Pack",
+          "level" : 3,
+          "text" : "@Pack",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Pack",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " property is similar to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", but it passes objects",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "back and forth between Swift and JavaScript by encoding its values.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "@Jack",
+          "level" : 3,
+          "text" : "@Jack",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " property applies to closure properties as a means",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "of exposing Swift functions to the JavaScript environment.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "JackPod",
+          "level" : 2,
+          "text" : "JackPod",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackPod",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " provides a set of native properties and functions",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "that are exported to a ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/www.jective.org\/JXKit\/documentation\/jxkit\/jxcontext",
+              "isActive" : true,
+              "overridingTitle" : "JXContext",
+              "overridingTitleInlineContent" : [
+                {
+                  "text" : "JXContext",
+                  "type" : "text"
+                }
+              ],
+              "type" : "reference"
+            },
+            {
+              "text" : ". It can be used to provide",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "interfaces to the os logging, file system, and custom frameworks.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "It also bridges JavaScript and Swift concurrency primitivies,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "to enable JavaScript’s ",
+              "type" : "text"
+            },
+            {
+              "code" : "await",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " to call back into a swift ",
+              "type" : "text"
+            },
+            {
+              "code" : "async",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " function.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/GettingStarted"
+      ],
+      "title" : "Articles"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/JackedReference"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/JackPeerable",
+        "doc:\/\/Jack\/documentation\/Jack\/JackPod",
+        "doc:\/\/Jack\/documentation\/Jack\/Jackable",
+        "doc:\/\/Jack\/documentation\/Jack\/JackedObject"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/Jack",
+        "doc:\/\/Jack\/documentation\/Jack\/JackPodMetaData",
+        "doc:\/\/Jack\/documentation\/Jack\/JackPublisher",
+        "doc:\/\/Jack\/documentation\/Jack\/Pack",
+        "doc:\/\/Jack\/documentation\/Jack\/Stack",
+        "doc:\/\/Jack\/documentation\/Jack\/Track"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/JackBundle",
+        "doc:\/\/Jack\/documentation\/Jack\/JackBundleIdentifier",
+        "doc:\/\/Jack\/documentation\/Jack\/JackInfo"
+      ],
+      "title" : "Variables"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+        "doc:\/\/Jack\/documentation\/Jack\/Published"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/JackError"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jack"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Jack/documentation/Jack": {
+  "abstract" : [
+    {
+      "text" : "Jack is a cross-platform framework that enables you to export",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "properties of your Swift classes to an embedded JavaScript environment,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "enabling your app to provide scriptable extensions.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack"
+},
+"doc://Jack/documentation/Jack/GettingStarted": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/GettingStarted",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Getting Started with Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/gettingstarted"
+},
+"doc://Jack/documentation/Jack/Jack": {
+  "abstract" : [
+    {
+      "text" : "A type that publishes a property with an exported function to an associated ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Jack"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Jack",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Jack"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jack"
+},
+"doc://Jack/documentation/Jack/JackBundle": {
+  "abstract" : [
+    {
+      "text" : "The bundle for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Jack",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackBundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackBundle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JackBundle",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackbundle"
+},
+"doc://Jack/documentation/Jack/JackBundleIdentifier": {
+  "abstract" : [
+    {
+      "text" : "The bundle identifier of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Jack",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module as specified by the ",
+      "type" : "text"
+    },
+    {
+      "code" : "CFBundleIdentifier",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackInfo",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackBundleIdentifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "!"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackBundleIdentifier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JackBundleIdentifier",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackbundleidentifier"
+},
+"doc://Jack/documentation/Jack/JackError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackError"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackError",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackerror"
+},
+"doc://Jack/documentation/Jack/JackInfo": {
+  "abstract" : [
+    {
+      "text" : "The info dictionary for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Jack",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSDictionary",
+      "text" : "NSDictionary"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JackInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackinfo"
+},
+"doc://Jack/documentation/Jack/JackPeerable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackPeerable"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackPeerable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackPeerable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackPeerable",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackpeerable"
+},
+"doc://Jack/documentation/Jack/JackPod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackPod",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is a unit of native functionality that can be exported to a scripting environment via a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackPod"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackpod"
+},
+"doc://Jack/documentation/Jack/JackPodMetaData": {
+  "abstract" : [
+    {
+      "text" : "Information about the jackpod",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackPodMetaData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackPodMetaData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackPodMetaData",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackpodmetadata"
+},
+"doc://Jack/documentation/Jack/JackPublisher": {
+  "abstract" : [
+    {
+      "text" : "A publisher for properties marked with the ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Stack",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " attribute.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackPublisher"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackPublisher",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackPublisher"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackPublisher",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackpublisher"
+},
+"doc://Jack/documentation/Jack/Jackable": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Jackable",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " type can be passed efficiently back and forth to a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " without serialization.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Jackable"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Jackable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Jackable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Jackable",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackable"
+},
+"doc://Jack/documentation/Jack/JackedObject": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is an ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " with the ability to share its properties automatically with a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This allows an embedded JavaScript context to access the properties and invoke the functions of the containing object.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedObject"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedObject",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedobject"
+},
+"doc://Jack/documentation/Jack/JackedReference": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackedReference",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a concrete base class implementation of ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackedObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "that tracks the instance’s native peer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedReference"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedReference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedReference",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference"
+},
+"doc://Jack/documentation/Jack/ObservableObject": {
+  "abstract" : [
+    {
+      "text" : "A type alias for the Combine framework’s type for an object with a publisher that emits before the object has changed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ObservableObject"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ObservableObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ObservableObject",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/observableobject"
+},
+"doc://Jack/documentation/Jack/Pack": {
+  "abstract" : [
+    {
+      "text" : "A type that publishes a property marked with an attribute and exports that property to an associated ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "by serializing the codable type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Pack"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Pack",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Pack"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Pack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/pack"
+},
+"doc://Jack/documentation/Jack/Published": {
+  "abstract" : [
+    {
+      "text" : "A type alias for the Combine framework’s type that publishes a property marked with an attribute.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Published"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Published",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Published"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Published",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/published"
+},
+"doc://Jack/documentation/Jack/Stack": {
+  "abstract" : [
+    {
+      "text" : "A type that publishes a property marked with an attribute and exports that property to an associated ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXKit\\\\JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Stack"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Stack"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Stack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack"
+},
+"doc://Jack/documentation/Jack/Track": {
+  "abstract" : [
+    {
+      "text" : "A value that is ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Published",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " but not available.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Track"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Track",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Track"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Track",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/track"
+},
+"https://www.jective.org/JXKit/documentation/jxkit/": {
+  "identifier" : "https:\/\/www.jective.org\/JXKit\/documentation\/jxkit\/",
+  "title" : "JXKit",
+  "titleInlineContent" : [
+    {
+      "text" : "JXKit",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/www.jective.org\/JXKit\/documentation\/jxkit\/"
+},
+"https://www.jective.org/JXKit/documentation/jxkit/jxcontext": {
+  "identifier" : "https:\/\/www.jective.org\/JXKit\/documentation\/jxkit\/jxcontext",
+  "title" : "JXContext",
+  "titleInlineContent" : [
+    {
+      "text" : "JXContext",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/www.jective.org\/JXKit\/documentation\/jxkit\/jxcontext"
+}
+}
+}

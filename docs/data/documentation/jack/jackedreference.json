@@ -1,0 +1,530 @@
+{
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackedReference",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a concrete base class implementation of ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackedObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "that tracks the instance’s native peer.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Jack\/documentation\/Jack"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:4Jack15JackedReferenceC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "JackedReference"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Jack"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "JackedReference"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "JackedReference"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "JackedReference"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "code" : "JackedReference",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " can only ever be associated with a single ",
+              "type" : "text"
+            },
+            {
+              "code" : "JXContext",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/7Combine16ObservableObjectP",
+        "doc:\/\/Jack\/5JXKit13JXConvertibleP",
+        "doc:\/\/Jack\/documentation\/Jack\/JackPeerable",
+        "doc:\/\/Jack\/documentation\/Jack\/JackedObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/peer"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/JXConvertible-Implementations",
+        "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/JackPeerable-Implementations",
+        "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/JackedObject-Implementations",
+        "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/ObservableObject-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jack\/jackedreference"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Jack/5JXKit13JXConvertibleP": {
+  "identifier" : "doc:\/\/Jack\/5JXKit13JXConvertibleP",
+  "title" : "JXKit.JXConvertible",
+  "type" : "unresolvable"
+},
+"doc://Jack/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/Jack\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://Jack/documentation/Jack": {
+  "abstract" : [
+    {
+      "text" : "Jack is a cross-platform framework that enables you to export",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "properties of your Swift classes to an embedded JavaScript environment,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "enabling your app to provide scriptable extensions.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack"
+},
+"doc://Jack/documentation/Jack/JackPeerable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackPeerable"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackPeerable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackPeerable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackPeerable",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackpeerable"
+},
+"doc://Jack/documentation/Jack/JackedObject": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is an ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " with the ability to share its properties automatically with a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This allows an embedded JavaScript context to access the properties and invoke the functions of the containing object.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedObject"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedObject",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedobject"
+},
+"doc://Jack/documentation/Jack/JackedReference": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackedReference",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a concrete base class implementation of ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackedObject",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "that tracks the instance’s native peer.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedReference"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedReference"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedReference",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference"
+},
+"doc://Jack/documentation/Jack/JackedReference/JXConvertible-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/JXConvertible-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXConvertible Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference\/jxconvertible-implementations"
+},
+"doc://Jack/documentation/Jack/JackedReference/JackPeerable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/JackPeerable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JackPeerable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference\/jackpeerable-implementations"
+},
+"doc://Jack/documentation/Jack/JackedReference/JackedObject-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/JackedObject-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JackedObject Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference\/jackedobject-implementations"
+},
+"doc://Jack/documentation/Jack/JackedReference/ObservableObject-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/ObservableObject-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ObservableObject Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference\/observableobject-implementations"
+},
+"doc://Jack/documentation/Jack/JackedReference/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference\/init()"
+},
+"doc://Jack/documentation/Jack/JackedReference/peer": {
+  "abstract" : [
+    {
+      "text" : "The counterpart JXValue for a given context",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "peer"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/JackedReference\/peer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "peer",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackedreference\/peer"
+},
+"doc://Jack/documentation/Jack/ObservableObject": {
+  "abstract" : [
+    {
+      "text" : "A type alias for the Combine framework’s type for an object with a publisher that emits before the object has changed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ObservableObject"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/ObservableObject",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ObservableObject"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ObservableObject",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/observableobject"
+}
+}
+}

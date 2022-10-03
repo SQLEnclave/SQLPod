@@ -1,0 +1,893 @@
+{
+  "abstract" : [
+    {
+      "text" : "A type that publishes a property marked with an attribute and exports that property to an associated ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXKit\\\\JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Jack\/documentation\/Jack"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Jack\/documentation\/Jack\/Stack"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:4Jack5StackV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Stack"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Jack"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Stack"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "Stack"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@propertyWrapper"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Stack"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Value"
+            },
+            {
+              "kind" : "text",
+              "text" : "> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Value"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Jackable",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:4Jack8JackableP",
+              "text" : "Jackable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Publishing a property with the ",
+              "type" : "text"
+            },
+            {
+              "code" : "@Stack",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " attribute creates a publisher of this",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "type. You access the publisher with the ",
+              "type" : "text"
+            },
+            {
+              "code" : "$",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " operator, as shown here:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "class Weather {",
+            "    @Stack var temperature: Double",
+            "    init(temperature: Double) {",
+            "        self.temperature = temperature",
+            "    }",
+            "}",
+            "",
+            "let weather = Weather(temperature: 20)",
+            "cancellable = weather.$temperature",
+            "    .sink() {",
+            "        print (\"Temperature now: \\($0)\")",
+            "    }",
+            "weather.temperature = 25",
+            "",
+            "\/\/ Prints:",
+            "\/\/ Temperature now: 20.0",
+            "\/\/ Temperature now: 25.0"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "When the property changes, publishing occurs in the property’s ",
+              "type" : "text"
+            },
+            {
+              "code" : "willSet",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " block,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "meaning subscribers receive the new value before it’s actually set on the property.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "In the above example, the second time the sink executes its closure, it receives",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "the parameter value ",
+              "type" : "text"
+            },
+            {
+              "code" : "25",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ". However, if the closure evaluated ",
+              "type" : "text"
+            },
+            {
+              "code" : "weather.temperature",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ",",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "the value returned would be ",
+              "type" : "text"
+            },
+            {
+              "code" : "20",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "@Stack",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " attribute is class constrained. Use it with properties",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "of classes, not with non-class types like structures.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "style" : "important",
+          "type" : "aside"
+        },
+        {
+          "anchor" : "See-Also",
+          "level" : 3,
+          "text" : "See Also",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "Publisher.assign(to:)",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/7SwiftUI15DynamicPropertyP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/init(initialValue:_:bind:queue:)",
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/init(wrappedValue:_:bind:queue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/bindingPrefix",
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/key",
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/objectWillChange",
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/projectedValue",
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/wrappedValue"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Jack\/documentation\/Jack\/Stack\/DynamicProperty-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jack\/stack"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Jack/7SwiftUI15DynamicPropertyP": {
+  "identifier" : "doc:\/\/Jack\/7SwiftUI15DynamicPropertyP",
+  "title" : "SwiftUI.DynamicProperty",
+  "type" : "unresolvable"
+},
+"doc://Jack/documentation/Jack": {
+  "abstract" : [
+    {
+      "text" : "Jack is a cross-platform framework that enables you to export",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "properties of your Swift classes to an embedded JavaScript environment,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "enabling your app to provide scriptable extensions.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Jack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack"
+},
+"doc://Jack/documentation/Jack/Jackable": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Jackable",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " type can be passed efficiently back and forth to a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " without serialization.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Jackable"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Jackable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Jackable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Jackable",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/jackable"
+},
+"doc://Jack/documentation/Jack/Stack": {
+  "abstract" : [
+    {
+      "text" : "A type that publishes a property marked with an attribute and exports that property to an associated ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXKit\\\\JXContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Stack"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Stack"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Stack",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack"
+},
+"doc://Jack/documentation/Jack/Stack/DynamicProperty-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/DynamicProperty-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "DynamicProperty Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/dynamicproperty-implementations"
+},
+"doc://Jack/documentation/Jack/Stack/bindingPrefix": {
+  "abstract" : [
+    {
+      "text" : "The binding prefix to use, if any",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bindingPrefix"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/bindingPrefix",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bindingPrefix",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/bindingprefix"
+},
+"doc://Jack/documentation/Jack/Stack/init(initialValue:_:bind:queue:)": {
+  "abstract" : [
+    {
+      "text" : "Creates the published instance with an initial wrapped value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "initialValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bind"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "queue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)OS_dispatch_queue",
+      "text" : "DispatchQueue"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/init(initialValue:_:bind:queue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(initialValue:_:bind:queue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/init(initialvalue:_:bind:queue:)"
+},
+"doc://Jack/documentation/Jack/Stack/init(wrappedValue:_:bind:queue:)": {
+  "abstract" : [
+    {
+      "text" : "Creates the published instance with an initial value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bind"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "queue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)OS_dispatch_queue",
+      "text" : "DispatchQueue"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/init(wrappedValue:_:bind:queue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:_:bind:queue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/init(wrappedvalue:_:bind:queue:)"
+},
+"doc://Jack/documentation/Jack/Stack/key": {
+  "abstract" : [
+    {
+      "text" : "The key that will be used to export the instance; a nil key will prevent export.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "key"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/key",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "key",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/key"
+},
+"doc://Jack/documentation/Jack/Stack/objectWillChange": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "objectWillChange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7Combine25ObservableObjectPublisherC",
+      "text" : "ObservableObjectPublisher"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/objectWillChange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "objectWillChange",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/objectwillchange"
+},
+"doc://Jack/documentation/Jack/Stack/projectedValue": {
+  "abstract" : [
+    {
+      "text" : "The property for which this instance exposes a publisher.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "projectedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:4Jack0A9PublisherV",
+      "text" : "JackPublisher"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/projectedValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "projectedValue",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/projectedvalue"
+},
+"doc://Jack/documentation/Jack/Stack/wrappedValue": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    }
+  ],
+  "identifier" : "doc:\/\/Jack\/documentation\/Jack\/Stack\/wrappedValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "wrappedValue",
+  "type" : "topic",
+  "url" : "\/documentation\/jack\/stack\/wrappedvalue"
+}
+}
+}

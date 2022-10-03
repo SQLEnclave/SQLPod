@@ -1,0 +1,154 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SQLPod\/documentation\/SQLPod",
+        "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodModule"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodModule\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:6SQLPod0A6ModuleVACycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SQLPod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sqlpod\/sqlpodmodule\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SQLPod/documentation/SQLPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SQLPod",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod"
+},
+"doc://SQLPod/documentation/SQLPod/SQLPodModule": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SQLPodModule"
+    }
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodModule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SQLPodModule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SQLPodModule",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod\/sqlpodmodule"
+},
+"doc://SQLPod/documentation/SQLPod/SQLPodModule/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodModule\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod\/sqlpodmodule\/init()"
+}
+}
+}

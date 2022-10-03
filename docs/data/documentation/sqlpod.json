@@ -1,0 +1,272 @@
+{
+  "abstract" : [
+    {
+      "text" : "",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SQLPod\/documentation\/SQLPod"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "SQLPod",
+    "modules" : [
+      {
+        "name" : "SQLPod"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "SQLPod"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodModule"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodBundle",
+        "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodBundleIdentifier",
+        "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodInfo"
+      ],
+      "title" : "Variables"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/sqlpod"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SQLPod/documentation/SQLPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SQLPod",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod"
+},
+"doc://SQLPod/documentation/SQLPod/SQLPodBundle": {
+  "abstract" : [
+    {
+      "text" : "The bundle for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "SQLPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SQLPodBundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
+    }
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodBundle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SQLPodBundle",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod\/sqlpodbundle"
+},
+"doc://SQLPod/documentation/SQLPod/SQLPodBundleIdentifier": {
+  "abstract" : [
+    {
+      "text" : "The bundle identifier of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "SQLPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module as specified by the ",
+      "type" : "text"
+    },
+    {
+      "code" : "CFBundleIdentifier",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " of the ",
+      "type" : "text"
+    },
+    {
+      "code" : "SQLPodInfo",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SQLPodBundleIdentifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "!"
+    }
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodBundleIdentifier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SQLPodBundleIdentifier",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod\/sqlpodbundleidentifier"
+},
+"doc://SQLPod/documentation/SQLPod/SQLPodInfo": {
+  "abstract" : [
+    {
+      "text" : "The info dictionary for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "SQLPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " module.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SQLPodInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSDictionary",
+      "text" : "NSDictionary"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "SQLPodInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod\/sqlpodinfo"
+},
+"doc://SQLPod/documentation/SQLPod/SQLPodModule": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SQLPodModule"
+    }
+  ],
+  "identifier" : "doc:\/\/SQLPod\/documentation\/SQLPod\/SQLPodModule",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SQLPodModule"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SQLPodModule",
+  "type" : "topic",
+  "url" : "\/documentation\/sqlpod\/sqlpodmodule"
+}
+}
+}

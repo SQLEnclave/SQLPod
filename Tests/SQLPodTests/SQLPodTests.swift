@@ -98,9 +98,13 @@ open class SQLDBWriter : JackedReference {
 }
 
 final class SQLPodTests: XCTestCase {
-    let dbpath = "/tmp/\(UUID().uuidString).sqlite"
-
+    func testSQLPodVersion() {
+        XCTAssertLessThanOrEqual(0_000_001, SQLPodVersionNumber)
+    }
+    
     func testSQLPod() throws {
+        let dbpath = "/tmp/\(UUID().uuidString).sqlite"
+
 //        let db = try SQLPod().db()
 //        db.query(sql: "select 1")
 

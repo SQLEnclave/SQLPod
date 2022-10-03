@@ -10,7 +10,7 @@ let package = Package(
             targets: ["SQLPod"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jectivex/Jack.git", from: "3.0.0"),
+        .package(url: "https://github.com/jectivex/Jack.git", from: "2.0.0"),
         .package(url: "https://github.com/tiqtiq/TiqDB.git", from: "8.0.0"),
     ],
     targets: [

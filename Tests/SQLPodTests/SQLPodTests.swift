@@ -1,5 +1,5 @@
 import XCTest
-@testable import SQLPod
+import SQLPod
 import TiqDB
 import Jack
 
@@ -101,7 +101,7 @@ final class SQLPodTests: XCTestCase {
     func testSQLPodVersion() {
         XCTAssertLessThanOrEqual(0_000_001, SQLPodVersionNumber)
     }
-    
+
     func testSQLPod() throws {
         let dbpath = "/tmp/\(UUID().uuidString).sqlite"
 

@@ -159,7 +159,7 @@ final class SQLPodTests: XCTestCase {
             XCTAssertTrue(try ctx.eval("sql").isObject)
             XCTAssertTrue(try ctx.eval("sql.db").isFunction)
 
-            //try ctx.eval("sql.db().query('select 1', null)")
+            try ctx.eval("sql.db().query('select 1', null)")
             //try ctx.eval("db.query('select 1')")
 
             XCTAssertEqual(1, SQLPodDebug.SQLPodDebugCount)

@@ -1,5 +1,5 @@
-public struct SQLPod {
-    public private(set) var text = "Hello, World!"
+
+public struct SQLPodModule {
 
     public init() {
     }

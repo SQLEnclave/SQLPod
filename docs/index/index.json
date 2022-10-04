@@ -1,0 +1,57 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/sqlpod\/sqlpodmodule\/init()",
+                "title" : "init()",
+                "type" : "init"
+              }
+            ],
+            "path" : "\/documentation\/sqlpod\/sqlpodmodule",
+            "title" : "SQLPodModule",
+            "type" : "struct"
+          },
+          {
+            "title" : "Variables",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/sqlpod\/sqlpodbundle",
+            "title" : "let SQLPodBundle: Bundle",
+            "type" : "var"
+          },
+          {
+            "path" : "\/documentation\/sqlpod\/sqlpodbundleidentifier",
+            "title" : "let SQLPodBundleIdentifier: String!",
+            "type" : "var"
+          },
+          {
+            "path" : "\/documentation\/sqlpod\/sqlpodinfo",
+            "title" : "let SQLPodInfo: NSDictionary?",
+            "type" : "var"
+          }
+        ],
+        "path" : "\/documentation\/sqlpod",
+        "title" : "SQLPod",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

@@ -10,6 +10,9 @@ on:
     # run at 9AM & 9PM UTC
     - cron:  '0 9,21 * * *'
 
+env:
+  DEVELOPER_DIR: /Applications/Xcode_14.0.1.app/Contents/Developer
+
 jobs:
   linux:
     runs-on: ubuntu-latest
@@ -33,7 +36,7 @@ jobs:
               -configuration Release \
               -scheme "SQLPod" \
               -sdk "iphonesimulator" \
-              -destination "platform=iOS Simulator,name=iPhone 14" \
+              -destination "platform=iOS Simulator,name=iPhone 13" \
               ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 
   tvos:
@@ -119,8 +122,6 @@ jobs:
   api-doc:
     runs-on: macos-12 # needed to be able to document SwiftUI
     timeout-minutes: 20
-    env:
-      DEVELOPER_DIR: /Applications/Xcode_13.3.app/Contents/Developer
     steps:
       - uses: actions/checkout@v2
       - name: Build documentation

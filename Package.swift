@@ -11,14 +11,14 @@ let package = Package(
     ],
     dependencies: [ .package(name: "swift-docc-plugin", url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"), 
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.0.0"),
-        .package(url: "https://github.com/tiqtiq/TiqDB.git", from: "8.0.0"),
+        .package(url: "https://github.com/sqlenclave/SQLEnclave.git", from: "0.0.1"),
     ],
     targets: [
         .target(
             name: "SQLPod",
             dependencies: [
                 .product(name: "Jack", package: "Jack"),
-                .product(name: "TiqDB", package: "TiqDB"),
+                .product(name: "SQLEnclave", package: "SQLEnclave"),
             ],
             resources: [.process("Resources")]),
         .testTarget(

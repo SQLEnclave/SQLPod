@@ -7,7 +7,7 @@ SQLPod
 <!-- [![](https://tokei.rs/b1/github/jectivex/SQLPod)](https://github.com/jectivex/SQLPod) -->
 
 A JackPod API for accessing a secure embedded SQLite databases
-using the cross-platform [TiqDB][] framework.
+using the cross-platform [SQLEnclave][] framework.
 
 
 [ProjectLink]: https://github.com/jectivex/SQLPod
@@ -19,7 +19,7 @@ using the cross-platform [TiqDB][] framework.
 [SQLPod]: https://github.com/jectivex/SQLPod
 [Jack]: https://github.com/jectivex/Jack
 [JXKit]: https://github.com/jectivex/JXKit
-[TiqDB]: https://github.com/tiqtiq/TiqDB
+[SQLEnclave]: https://github.com/sqlenclave/SQLEnclave
 [JavaScriptCore]: https://trac.webkit.org/wiki/JavaScriptCore
 
 [GitHubActionBadge]: https://img.shields.io/github/workflow/status/jectivex/SQLPod/SQLPod%20CI

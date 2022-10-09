@@ -123,7 +123,7 @@ open class SQLDBWriter : JackedReference {
             } else if arg.isObject {
                 return StatementArguments(try arg.properties.map({ ($0, try arg[$0].asDatabaseValueConvertible) }))
             } else {
-                throw JXError(ctx: arg.ctx, value: arg.ctx.string("Bad argument; must be either an array or object"))
+                throw JXEvalError(context: arg.context, value: arg.context.string("Bad argument; must be either an array or object"))
             }
         }
         return StatementArguments()
@@ -135,18 +135,18 @@ extension JXValue {
     var asDatabaseValueConvertible: DatabaseValueConvertible? {
         get throws {
             switch self.type {
-            case .none:
+            case .null:
                 return nil
             case .boolean:
-                return self.booleanValue
+                return self.bool
             case .string:
-                return try self.stringValue
+                return try self.string
             case .number:
-                return try self.numberValue
+                return try self.double
             case .date:
-                return try self.dateValue ?? .init(timeIntervalSince1970: 0)
+                return try self.date // ?? .init(timeIntervalSince1970: 0)
             default:
-                throw JXError(ctx: self.ctx, value: self.ctx.string("Unhandled conversion type: \(self.type ?? .boolean)"))
+                throw JXEvalError(context: self.context, value: self.context.string("Unhandled conversion type: \(self.type ?? .boolean)"))
             }
         }
     }
@@ -209,18 +209,18 @@ final class SQLPodTests: XCTestCase {
             let pod = SQLPodDebug()
             let ctx = try JXContext().jack(pods: [ "sql": pod ])
 
-            XCTAssertLessThanOrEqual(0_000_001, try ctx.eval("sql.version").numberValue)
-            //XCTAssertLessThanOrEqual(0_000_001, try ctx.eval("sql.sqlenclaveVersion").numberValue)
+            XCTAssertLessThanOrEqual(0_000_001, try ctx.eval("sql.version").double)
+            //XCTAssertLessThanOrEqual(0_000_001, try ctx.eval("sql.sqlenclaveVersion").double)
 
             XCTAssertTrue(try ctx.eval("sql").isObject)
             XCTAssertTrue(try ctx.eval("sql.db").isFunction)
             XCTAssertTrue(try ctx.eval("sql.db()").isObject)
 
-            XCTAssertEqual(9, try ctx.eval("sql.db().query('select 9')").array.first?["9"].numberValue)
+            XCTAssertEqual(9, try ctx.eval("sql.db().query('select 9')").array.first?["9"].double)
 
-            XCTAssertEqual(1, try ctx.eval("sql.db({ readonly: true }).query('select 1 as X')").array.first?["X"].numberValue)
+            XCTAssertEqual(1, try ctx.eval("sql.db({ readonly: true }).query('select 1 as X')").array.first?["X"].double)
 
-            XCTAssertEqual(1, try ctx.eval("sql.db().query('select ? as X', [1])").array.first?["X"].numberValue)
+            XCTAssertEqual(1, try ctx.eval("sql.db().query('select ? as X', [1])").array.first?["X"].double)
 
             let db = try ctx.eval("sql.db()")
 
@@ -236,8 +236,8 @@ final class SQLPodTests: XCTestCase {
             ///   - params: the paramater array to bind to the corresponding '?' statement markers in the SQL
             func query<JX: JXConvertible>(_ sql: String, _ params: [JXConvertible] = []) throws -> [JX] {
                 // SQL statement is the first argument, the argument array is the second
-                let args = try [ctx.string(sql)] + [ctx.array(params.map({ try $0.getJX(from: ctx) }))]
-                return try queryFunction.call(withArguments: args).array.map({ try .makeJX(from: $0) })
+                let args = try [ctx.string(sql)] + [ctx.array(params.map({ try $0.toJX(in: ctx) }))]
+                return try queryFunction.call(withArguments: args).array.map({ try .fromJX($0) })
             }
 
             struct DemoRow : Codable, Equatable, JXConvertible {

@@ -10,8 +10,8 @@ let package = Package(
             targets: ["SQLPod"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jectivex/Jack.git", from: "2.1.0"),
-        .package(url: "https://github.com/sqlenclave/SQLEnclave.git", from: "0.0.1"),
+        .package(url: "https://github.com/jectivex/Jack.git", from: "2.3.0"),
+        .package(url: "https://github.com/sqlenclave/SQLEnclave.git", from: "0.0.2"),
     ],
     targets: [
         .target(

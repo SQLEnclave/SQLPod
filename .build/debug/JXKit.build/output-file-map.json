@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/master.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXCoding.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXCoding.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXCoding.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXCoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXCoding.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXContext.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXContext.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXContext.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXContext.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXConvertible.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXConvertible.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXConvertible.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXConvertible.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXDefs.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXDefs.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXDefs.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXDefs~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXDefs.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXErrors.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXProperty.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXProperty.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXProperty.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXProperty~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXProperty.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXType.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXType.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXType.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXType~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXType.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXVM.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXVM.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXVM.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXVM~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXVM.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXValue.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXValue.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXValue.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXValue.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/Module.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/Module.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/Module.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/Module~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/Module.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/resource_bundle_accessor.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/resource_bundle_accessor.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module SQLCipher {
+    umbrella "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLCipher/include"
+    export *
+}

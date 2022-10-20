@@ -1,0 +1,4 @@
+module SQLEnclave {
+    header "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/SQLEnclave-Swift.h"
+    requires objc
+}

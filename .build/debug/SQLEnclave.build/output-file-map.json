@@ -1,0 +1,785 @@
+{
+  "": {
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/master.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Configuration.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Configuration.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Configuration.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Configuration.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Cursor.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Cursor.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Cursor.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Cursor~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Cursor.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Database+Schema.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Schema.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Schema.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Schema~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Schema.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Database+Statements.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Statements.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Statements.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Statements~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database+Statements.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Database.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Database.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseCollation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseCollation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseCollation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseCollation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseCollation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseError.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseError.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseError.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseError~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseError.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseFunction.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseFunction.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseFunction.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseFunction~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseFunction.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabasePool.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePool.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePool.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePool~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePool.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabasePublishers.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePublishers.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePublishers.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePublishers~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabasePublishers.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseQueue.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseQueue.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseQueue.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseQueue.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseReader.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseReader.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseReader.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseReader.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseRegion.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegion.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegion.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegion~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegion.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseRegionObservation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegionObservation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegionObservation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegionObservation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseRegionObservation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseSchemaCache.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSchemaCache.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSchemaCache.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSchemaCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSchemaCache.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseSnapshot.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSnapshot.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSnapshot.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSnapshot~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseSnapshot.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseValue.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValue.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValue.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValue.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseValueConvertible.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValueConvertible.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValueConvertible.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValueConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseValueConvertible.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/DatabaseWriter.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseWriter.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseWriter.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseWriter~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/DatabaseWriter.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/FetchRequest.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/FetchRequest.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/FetchRequest.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/FetchRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/FetchRequest.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Row.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Row.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Row.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Row~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Row.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/RowAdapter.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowAdapter.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowAdapter.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowAdapter.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/RowDecodingError.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowDecodingError.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowDecodingError.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowDecodingError~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/RowDecodingError.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/SQL.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQL.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQL.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQL.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/SQLInterpolation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLInterpolation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLInterpolation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLInterpolation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLInterpolation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/SQLRequest.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLRequest.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLRequest.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SQLRequest.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/SchedulingWatchdog.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SchedulingWatchdog.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SchedulingWatchdog.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SchedulingWatchdog~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SchedulingWatchdog.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/SerializedDatabase.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SerializedDatabase.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SerializedDatabase.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SerializedDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/SerializedDatabase.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Statement.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Statement.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Statement.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Statement~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Statement.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/StatementAuthorizer.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementAuthorizer.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementAuthorizer.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementAuthorizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementAuthorizer.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/StatementColumnConvertible.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementColumnConvertible.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementColumnConvertible.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementColumnConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/StatementColumnConvertible.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/CoreGraphics/CGFloat.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/CoreGraphics/CGFloat.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/CoreGraphics/CGFloat.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/CoreGraphics/CGFloat~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/CoreGraphics/CGFloat.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/Data.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Data.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Data.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Data.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/DatabaseDateComponents.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseDateComponents.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseDateComponents.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseDateComponents~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseDateComponents.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/Date.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Date.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Date.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Date~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Date.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/Decimal.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Decimal.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Decimal.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Decimal~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/Decimal.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/NSData.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSData.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSData.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSData~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSData.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/NSNull.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNull.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNull.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNull~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNull.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/NSNumber.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNumber.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNumber.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNumber~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSNumber.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/NSString.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSString.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSString.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSString~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/NSString.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/SQLiteDateParser.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/SQLiteDateParser.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/SQLiteDateParser.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/SQLiteDateParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/SQLiteDateParser.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/URL.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/URL.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/URL.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/URL~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/URL.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/Foundation/UUID.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/UUID.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/UUID.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/UUID~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/Foundation/UUID.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/StandardLibrary/JSONRequiredEncoder.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/JSONRequiredEncoder.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/JSONRequiredEncoder.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/JSONRequiredEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/JSONRequiredEncoder.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/Support/StandardLibrary/StandardLibrary.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/StandardLibrary.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/StandardLibrary.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/StandardLibrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/Support/StandardLibrary/StandardLibrary.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Core/TransactionObserver.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/TransactionObserver.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/TransactionObserver.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/TransactionObserver~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Core/TransactionObserver.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/EnvironmentStateObject.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/EnvironmentStateObject.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/EnvironmentStateObject.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/EnvironmentStateObject~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/EnvironmentStateObject.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Export.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Export.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Export.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Export~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Export.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS3.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS3Pattern.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3Pattern.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3Pattern.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3Pattern~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3Pattern.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS3TokenizerDescriptor.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3TokenizerDescriptor.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3TokenizerDescriptor.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3TokenizerDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS3TokenizerDescriptor.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS4.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS4.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS4.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS4~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS4.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS5.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS5CustomTokenizer.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5CustomTokenizer.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5CustomTokenizer.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5CustomTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5CustomTokenizer.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS5Pattern.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Pattern.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Pattern.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Pattern~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Pattern.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS5Tokenizer.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Tokenizer.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Tokenizer.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Tokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5Tokenizer.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS5TokenizerDescriptor.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5TokenizerDescriptor.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5TokenizerDescriptor.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5TokenizerDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5TokenizerDescriptor.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/FTS/FTS5WrapperTokenizer.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5WrapperTokenizer.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5WrapperTokenizer.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5WrapperTokenizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/FTS/FTS5WrapperTokenizer.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Migration/DatabaseMigrator.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/DatabaseMigrator.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/DatabaseMigrator.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/DatabaseMigrator~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/DatabaseMigrator.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Migration/Migration.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/Migration.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/Migration.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/Migration~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Migration/Migration.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Module.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Module.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Module.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Module~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Module.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Query.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Query.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Query.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Query~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Query.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/FTS3+QueryInterface.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS3+QueryInterface.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS3+QueryInterface.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS3+QueryInterface~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS3+QueryInterface.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/FTS5+QueryInterface.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS5+QueryInterface.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS5+QueryInterface.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS5+QueryInterface~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/FTS5+QueryInterface.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/ForeignKey.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/ForeignKey.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/ForeignKey.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/ForeignKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/ForeignKey.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/Association.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/Association.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/Association.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/Association~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/Association.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/AssociationAggregate.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/AssociationAggregate.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/AssociationAggregate.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/AssociationAggregate~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/AssociationAggregate.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/BelongsToAssociation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/BelongsToAssociation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/BelongsToAssociation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/BelongsToAssociation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/BelongsToAssociation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/HasManyAssociation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyAssociation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyAssociation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyAssociation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyAssociation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/HasManyThroughAssociation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyThroughAssociation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyThroughAssociation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyThroughAssociation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasManyThroughAssociation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/HasOneAssociation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneAssociation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneAssociation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneAssociation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneAssociation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/HasOneThroughAssociation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneThroughAssociation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneThroughAssociation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneThroughAssociation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/HasOneThroughAssociation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/Association/JoinAssociation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/JoinAssociation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/JoinAssociation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/JoinAssociation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/Association/JoinAssociation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/CommonTableExpression.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/CommonTableExpression.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/CommonTableExpression.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/CommonTableExpression~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/CommonTableExpression.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/QueryInterfaceRequest.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/QueryInterfaceRequest.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/QueryInterfaceRequest.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/QueryInterfaceRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/QueryInterfaceRequest.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Request/RequestProtocols.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/RequestProtocols.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/RequestProtocols.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/RequestProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Request/RequestProtocols.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/Column.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Column.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Column.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Column~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Column.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/DatabasePromise.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/DatabasePromise.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/DatabasePromise.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/DatabasePromise~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/DatabasePromise.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLAssociation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLAssociation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLAssociation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLAssociation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLAssociation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLCollection.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLCollection.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLCollection.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLCollection~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLCollection.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLExpression.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLExpression.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLExpression.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLExpression~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLExpression.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLForeignKeyRequest.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLForeignKeyRequest.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLForeignKeyRequest.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLForeignKeyRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLForeignKeyRequest.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLFunctions.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLFunctions.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLFunctions.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLFunctions~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLFunctions.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLOperators.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOperators.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOperators.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOperators~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOperators.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLOrdering.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOrdering.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOrdering.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOrdering~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLOrdering.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLRelation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLRelation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLRelation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLRelation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLRelation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLSelection.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSelection.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSelection.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSelection~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSelection.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/SQLSubquery.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSubquery.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSubquery.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSubquery~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/SQLSubquery.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQL/Table.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Table.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Table.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Table~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQL/Table.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQLGeneration/SQLGenerationContext.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLGenerationContext.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLGenerationContext.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLGenerationContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLGenerationContext.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQLGeneration/SQLQueryGenerator.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLQueryGenerator.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLQueryGenerator.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLQueryGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLGeneration/SQLQueryGenerator.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/SQLInterpolation+QueryInterface.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLInterpolation+QueryInterface.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLInterpolation+QueryInterface.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLInterpolation+QueryInterface~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/SQLInterpolation+QueryInterface.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Schema/TableDefinition.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/TableDefinition.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/TableDefinition.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/TableDefinition~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/TableDefinition.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/Schema/VirtualTableModule.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/VirtualTableModule.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/VirtualTableModule.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/VirtualTableModule~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/Schema/VirtualTableModule.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/TableRecord+Association.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+Association.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+Association.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+Association~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+Association.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryInterface/TableRecord+QueryInterfaceRequest.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+QueryInterfaceRequest.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+QueryInterfaceRequest.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+QueryInterfaceRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryInterface/TableRecord+QueryInterfaceRequest.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/QueryObservation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryObservation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryObservation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryObservation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/QueryObservation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/EncodableRecord+Encodable.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord+Encodable.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord+Encodable.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord+Encodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord+Encodable.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/EncodableRecord.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/EncodableRecord.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/FetchableRecord+Decodable.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+Decodable.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+Decodable.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+Decodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+Decodable.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/FetchableRecord+TableRecord.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+TableRecord.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+TableRecord.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+TableRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord+TableRecord.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/FetchableRecord.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/FetchableRecord.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/PersistableRecord.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/PersistableRecord.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/PersistableRecord.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/PersistableRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/PersistableRecord.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/Record.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/Record.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/Record.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/Record~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/Record.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Record/TableRecord.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/TableRecord.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/TableRecord.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/TableRecord~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Record/TableRecord.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/CaseInsensitiveIdentifier.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/CaseInsensitiveIdentifier.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/CaseInsensitiveIdentifier.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/CaseInsensitiveIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/CaseInsensitiveIdentifier.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/Inflections+English.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections+English.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections+English.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections+English~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections+English.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/Inflections.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Inflections.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/LockedBox.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/LockedBox.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/LockedBox.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/LockedBox~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/LockedBox.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/OnDemandFuture.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OnDemandFuture.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OnDemandFuture.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OnDemandFuture~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OnDemandFuture.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/OrderedDictionary.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OrderedDictionary.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OrderedDictionary.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OrderedDictionary~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/OrderedDictionary.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/Pool.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Pool.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Pool.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Pool~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Pool.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/ReadWriteBox.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReadWriteBox.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReadWriteBox.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReadWriteBox~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReadWriteBox.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/ReceiveValuesOn.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReceiveValuesOn.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReceiveValuesOn.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReceiveValuesOn~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/ReceiveValuesOn.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/Refinable.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Refinable.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Refinable.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Refinable~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Refinable.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/Utils/Utils.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Utils.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Utils.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Utils~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/Utils/Utils.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/DatabaseCancellable.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/DatabaseCancellable.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/DatabaseCancellable.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/DatabaseCancellable~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/DatabaseCancellable.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueObservation.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservation.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservation.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservation~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservation.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueObservationScheduler.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservationScheduler.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservationScheduler.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservationScheduler~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObservationScheduler.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueObserver.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObserver.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObserver.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObserver~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueObserver.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueReducer/Fetch.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Fetch.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Fetch.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Fetch~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Fetch.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueReducer/Map.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Map.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Map.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Map~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Map.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueReducer/RemoveDuplicates.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/RemoveDuplicates.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/RemoveDuplicates.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/RemoveDuplicates~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/RemoveDuplicates.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueReducer/Trace.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Trace.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Trace.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Trace~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/Trace.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/SQLEnclave/Sources/SQLEnclave/ValueObservation/ValueReducer/ValueReducer.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/ValueReducer.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/ValueReducer.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/ValueReducer~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/ValueObservation/ValueReducer/ValueReducer.swiftdeps"
+  },
+  "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/resource_bundle_accessor.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/SQLEnclave.build/resource_bundle_accessor.swiftdeps"
+  }
+}

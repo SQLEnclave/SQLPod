@@ -1,0 +1,4 @@
+module JXKit {
+    header "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXKit-Swift.h"
+    requires objc
+}

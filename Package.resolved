@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "jack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jectivex/Jack.git",
+      "state" : {
+        "revision" : "56c466626a82c88fcdeea84cc376b1eaf7a04054",
+        "version" : "2.3.0"
+      }
+    },
+    {
+      "identity" : "jxkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jectivex/JXKit.git",
+      "state" : {
+        "revision" : "c2614e709fec0dea98c6c10fc12125cd0b116250",
+        "version" : "3.2.1"
+      }
+    },
+    {
+      "identity" : "sqlenclave",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sqlenclave/SQLEnclave.git",
+      "state" : {
+        "revision" : "4730c2e5c7239b761c1e9ba8ee3e4b85a31869d8",
+        "version" : "0.0.3"
+      }
+    },
+    {
+      "identity" : "swift-docc-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-docc-plugin",
+      "state" : {
+        "revision" : "3303b164430d9a7055ba484c8ead67a52f7b74f6",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

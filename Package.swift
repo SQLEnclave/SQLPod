@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.3.0"),
-        .package(url: "https://github.com/sqlenclave/SQLEnclave.git", from: "0.0.1"),
+        .package(url: "https://github.com/sqlenclave/SQLEnclave.git", from: "0.0.3"),
     ],
     targets: [
         .target(

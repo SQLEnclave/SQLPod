@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jectivex/Jack.git",
       "state" : {
-        "revision" : "14432c11699160ecb39287858bbcff782d666919",
-        "version" : "2.3.1"
+        "revision" : "23ca01f3eae4ec7b7dedd18facc631fe2bfaea18",
+        "version" : "2.3.2"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jectivex/JXKit.git",
       "state" : {
-        "revision" : "ddefa3a39b4e520ad7e0366f0ec5baf03f29488e",
-        "version" : "3.2.2"
+        "revision" : "9880ed92586c082c6238db520c7422cba56f09d7",
+        "version" : "3.2.3"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sqlenclave/SQLEnclave.git",
       "state" : {
-        "revision" : "8e0aa85ee4eeb157fed7d9383af3a49d9de7211e",
-        "version" : "0.0.4"
+        "revision" : "bbd8bcc4c80a905388299015c043805b7b25b0c8",
+        "version" : "0.0.5"
       }
     },
     {

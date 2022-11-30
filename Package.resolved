@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jectivex/Jack.git",
       "state" : {
-        "revision" : "23ca01f3eae4ec7b7dedd18facc631fe2bfaea18",
-        "version" : "2.3.2"
+        "revision" : "d1eacfd3fa13553f16aec0872eb827306c61ea0c",
+        "version" : "2.3.3"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jectivex/JXKit.git",
       "state" : {
-        "revision" : "b9becf1a58b0413b1763de9cdb5cd99b63ad3bd0",
-        "version" : "3.2.5"
+        "revision" : "d97eae46770308de8c5df56fb2bab07c66e42b08",
+        "version" : "3.3.0"
       }
     },
     {

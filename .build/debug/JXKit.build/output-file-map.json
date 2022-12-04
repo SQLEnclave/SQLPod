@@ -26,11 +26,11 @@
     "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXDefs~partial.swiftmodule",
     "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXDefs.swiftdeps"
   },
-  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXErrors.swift": {
-    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors.d",
-    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors.swift.o",
-    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors~partial.swiftmodule",
-    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXErrors.swiftdeps"
+  "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXError.swift": {
+    "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXError.d",
+    "object": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXError.swift.o",
+    "swiftmodule": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXError~partial.swiftmodule",
+    "swift-dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXError.swiftdeps"
   },
   "/Users/runner/work/SQLPod/SQLPod/.build/checkouts/JXKit/Sources/JXKit/JXProperty.swift": {
     "dependencies": "/Users/runner/work/SQLPod/SQLPod/.build/x86_64-apple-macosx/debug/JXKit.build/JXProperty.d",

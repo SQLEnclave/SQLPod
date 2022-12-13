@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sqlenclave/SQLEnclave.git",
       "state" : {
-        "revision" : "b866e1f01bae7c0c6abc2e4c4a9e15572c050b0c",
-        "version" : "0.0.6"
+        "revision" : "07afc3ed963e0b8a3a053a2ff7467f396803329b",
+        "version" : "0.1.0"
       }
     },
     {

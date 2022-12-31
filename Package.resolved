@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jectivex/JXKit.git",
       "state" : {
-        "revision" : "c0c654e2ad0b6cabcf6efedc51d678bc8aa72f7d",
-        "version" : "3.4.0"
+        "revision" : "d3ee397b489f17e89d2d56413fbee22564adf034",
+        "version" : "3.4.1"
       }
     },
     {
